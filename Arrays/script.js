@@ -110,10 +110,11 @@
 
 // splice(startldx,delCount,newElement1...)
 
+// let arr = [1,2,3,4,5,6,7,8];
+// arr.splice(8, 0, 9);
+// console.log(arr);
 
-let arr = [1,2,3,4,5,6,7,8];
-arr.splice(8, 0, 9);
-console.log(arr);
+
 
 
 
