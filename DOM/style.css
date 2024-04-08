@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.heading{
+   background-color: yellow;
+   font-size: 600;
+   display: flex;
+   color: blue;
+   justify-content: center;
+}
+.fontbold{
+    font-size: 500;
+    font-weight: 600;
+}
+body button{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 500;
+
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    flex-direction: column;
+}
