@@ -15,18 +15,34 @@ html{
     font-size: 16px;
 }
 .calculator-btns{
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    /* background-color: yellow; */
+    align-items: center;
+
+
 }
 .container{
+    width: 60%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 0.5rem;
 
 }
+.input1{
+    height: 4rem;
+    width: 30%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .input-box{
-    width: 26rem;
     height: 3.1rem;
+    width: 100%;
     border: 2px solid black;
     border-radius: 0.5rem;
     font-size: 2rem;
@@ -36,9 +52,10 @@ html{
     justify-content: center ;
     align-items: center;
     height: 3.57rem;
-    width: 6.25rem;
+    width: 25%;
+    /* width: 6.25rem; */
     border: 2px solid black;
     border-radius: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
