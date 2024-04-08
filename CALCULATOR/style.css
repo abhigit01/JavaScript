@@ -28,7 +28,7 @@ html{
     width: 26rem;
     height: 3.1rem;
     border: 2px solid black;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-size: 2rem;
 }
 .button{
@@ -38,7 +38,7 @@ html{
     height: 3.57rem;
     width: 6.25rem;
     border: 2px solid black;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-size: 2rem;
     cursor: pointer;
 }
